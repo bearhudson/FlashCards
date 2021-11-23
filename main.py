@@ -1,7 +1,4 @@
-import tkinter.messagebox
 from tkinter import *
-from tkinter import ttk
-from tkinter.messagebox import askokcancel
 import pandas
 import random
 
@@ -62,3 +59,8 @@ window.config(padx=120, pady=100, bg=GREEN)
 canvas = Canvas(width=800, height=526, bg=GREEN, highlightthickness=0)
 flash_cards = FlashCards()
 window.mainloop()
+
+#TODO: add timer
+#TODO: keep track of known cards
+#TODO: write known cards to file
+#TODO: read known cards and remove known from dictionary list
