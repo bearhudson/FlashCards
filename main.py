@@ -60,7 +60,7 @@ canvas = Canvas(width=800, height=526, bg=GREEN, highlightthickness=0)
 flash_cards = FlashCards()
 window.mainloop()
 
-#TODO: add timer
-#TODO: keep track of known cards
-#TODO: write known cards to file
-#TODO: read known cards and remove known from dictionary list
+# TODO: add timer
+# TODO: keep track of known cards
+# TODO: write known cards to file
+# TODO: read known cards and remove known from dictionary list
